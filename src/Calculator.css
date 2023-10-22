@@ -1,0 +1,64 @@
+/* src/Calculator.css */
+
+.calculator-container {
+    width: 250px;
+    background: #201847;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .output-display {
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .result-display {
+    /* You can add styling here if needed */
+
+  }
+  
+  .input {
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+  .transparent-button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Add additional CSS styles as needed for your design. */
+
+  .buttons{
+    background-color: rgb(10, 0, 32);
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+    
+  }
+
+  .First{
+    padding: 20px;
+  }
+

@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
+/* src/App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  background: linear-gradient(to right, rgb(104, 206, 240), rgb(101, 239, 101));
+  font-family: Arial, sans-serif;
+}
+
+.calculator-container {
+  width: 400px;
+  height: 60vh;
+  background: #0b011e;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* src/App.css */
+
+.transparent-button {
+  background: transparent;
   color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+/* ... (rest of the CSS, as in the previous answer) */
+
+/* src/App.css */
+
+.output-display {
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* ... (previous CSS code) */
